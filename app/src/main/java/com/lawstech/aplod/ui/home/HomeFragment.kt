@@ -66,10 +66,10 @@ class HomeFragment : Fragment() {
 
         kalimat = fragmentHomeBinding.inputComment.text.toString()
 
-        val labelTiga = arrayOf("pemerintah","pemerintahan","KPK", "polisi", "pejabat", "dpr")
+        val labelTiga = arrayOf("pemerintah","pemerintahan","KPK", "polisi", "pejabat", "dpr", "indonesia", "jokowi")
         val labelEmpat = arrayOf("kamu", "dia", "seperti")
-        val labelLima = arrayOf("bunuh", "laporin", "hancur", "kubunuh", "sebarin", "menyebarkan","bongkar", "hilang", "bom")
-        val labelEnam = arrayOf("kristen","islam","buddha","konghucu","budha","hindu","katolik", "agama", "arab", "cina")
+        val labelLima = arrayOf("bunuh", "laporin", "hancur", "kubunuh", "sebarin", "menyebarkan","bongkar", "hilang", "bom", "mati", "berani")
+        val labelEnam = arrayOf("kristen","islam","buddha","konghucu","budha","hindu","katolik", "agama", "arab", "cina", "bandung", "tuhan", "kaum", "kitab", "mayoritas", "timur", "jawa", "barat", "yesus", "salib")
 
         fragmentHomeBinding.progressBar.visibility = View.VISIBLE
 
